@@ -44,6 +44,7 @@ let getPet = (req, res) => {
         });
     })
 };
+// xin chào
 
 /*
  * DELETE /pets/:id to delete the pet with given id
