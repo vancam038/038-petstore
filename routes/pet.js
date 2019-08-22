@@ -1,7 +1,7 @@
 let Pet = require("../model/pet");
 
 /*
- * GET /pets route to retrieve all the pets.
+ * GET /pets route to retrieve all the pets. 
  */
 let getPets = (req, res) => {
     Pet.find((err, pets) => {
